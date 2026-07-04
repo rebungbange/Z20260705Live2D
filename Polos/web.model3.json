@@ -39,11 +39,11 @@
 	"HitAreas": [
 		{
 			"Id": "HitArea",
-			"Name": ""
+			"Name": "Headpat"
 		},
 		{
 			"Id": "HitArea2",
-			"Name": ""
+			"Name": "Taphand"
 		}
 	]
 }
