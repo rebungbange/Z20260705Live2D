@@ -1,0 +1,78 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "web.moc3",
+		"Textures": [
+			"web.2048/texture_00.png"
+		],
+		"Physics": "web.physics3.json",
+		"DisplayInfo": "web.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "pat2",
+				"File": "pat2.exp3.json"
+			},
+			{
+				"Name": "expression1",
+				"File": "cheeks.exp3.json"
+			},
+			{
+				"Name": "expression2",
+				"File": "patcat.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "click.motion3.json"
+				},
+				{
+					"File": "tap hidung.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamEyeLOpen2",
+				"ParamEyeROpen2"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea2",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea3",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea4",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea5",
+			"Name": ""
+		},
+		{
+			"Id": "HitArea6",
+			"Name": ""
+		}
+	]
+}
